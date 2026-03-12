@@ -2,9 +2,9 @@
 using namespace std;
 
 int main(){
-    string a, b;
-    cin >> a >> b;
-    bool c = 0;
+    short x = 32767;
+    x ++;
+    cout << x;
     
 
 
