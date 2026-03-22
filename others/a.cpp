@@ -2,10 +2,9 @@
 using namespace std;
 
 int main(){
-    short x = 32767;
-    x ++;
-    cout << x;
-    
+    int A[5];
+    A[3] = 2;
+    cout << *(A + 3);    
 
 
     return 0;
