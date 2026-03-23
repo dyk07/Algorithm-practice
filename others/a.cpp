@@ -1,11 +1,23 @@
 #include <bits/stdc++.h>
-using namespace std;
+
+
+class a{
+    public:
+    void f() {
+        std::cout << 3;
+    }
+    void g() {
+        std::cout << 2;
+    }
+};
+
+a x;
+
+using namespace a;
 
 int main(){
-    int A[5];
-    A[3] = 2;
-    cout << *(A + 3);    
-
+    
+    x.f();
 
     return 0;
 }
