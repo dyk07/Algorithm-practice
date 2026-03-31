@@ -17,6 +17,10 @@ int loc() {
                 tmp = yo[tmp];
             }
         } else {
+            while (i < l - 1) {
+                scanf("%d", &k);
+                i++;
+            }
             return tmp;
         }
     }
