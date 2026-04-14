@@ -2,22 +2,16 @@
 
 
 class a{
-    public:
-    void f() {
-        std::cout << 3;
-    }
-    void g() {
-        std::cout << 2;
-    }
+    int x;
 };
 
-a x;
 
-using namespace a;
 
 int main(){
     
-    x.f();
+    a* p;
+    p->x = 1;
+    std::cout << p->x;
 
     return 0;
 }
