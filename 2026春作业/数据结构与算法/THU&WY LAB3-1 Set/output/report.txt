@@ -1,0 +1,22 @@
+TestCase            Program        Time(ms)
+--------------------------------------------------
+Random_Balance      my_bst         -1
+Random_Balance      my_skiplist    -1
+Random_Balance      my_splay_double-1
+Random_Balance      my_splay_single-1
+--------------------------------------------------
+Sequential_Insert   my_bst         -1
+Sequential_Insert   my_skiplist    -1
+Sequential_Insert   my_splay_double-1
+Sequential_Insert   my_splay_single-1
+--------------------------------------------------
+Single_Chain_Access my_bst         -1
+Single_Chain_Access my_skiplist    -1
+Single_Chain_Access my_splay_double-1
+Single_Chain_Access my_splay_single-1
+--------------------------------------------------
+Locality_Access     my_bst         -1
+Locality_Access     my_skiplist    -1
+Locality_Access     my_splay_double-1
+Locality_Access     my_splay_single-1
+--------------------------------------------------

@@ -1,0 +1,20 @@
+TestCase            Program           Time(ms)
+-------------------------------------------------------
+1.Random_Balance    my_bst            63
+1.Random_Balance    my_skiplist       68
+1.Random_Balance    my_splay_double   76
+1.Random_Balance    my_splay_single   77
+-------------------------------------------------------
+2.BST_Weakness      my_bst            5635
+2.BST_Weakness      my_skiplist       36
+2.BST_Weakness      my_splay_double   41
+2.BST_Weakness      my_splay_single   36
+-------------------------------------------------------
+3.Double_vs_Single  my_splay_double   79
+3.Double_vs_Single  my_splay_single   Error/Fail
+-------------------------------------------------------
+4.Splay_Locality    my_bst            >20000 (Timeout)
+4.Splay_Locality    my_skiplist       53
+4.Splay_Locality    my_splay_double   44
+4.Splay_Locality    my_splay_single   46
+-------------------------------------------------------
