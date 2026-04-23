@@ -1,0 +1,44 @@
+{
+  "countries": {
+    "usa": {
+      "name": "美国",
+      "code": "usa",
+      "transit_fee": 1.0
+    },
+    "chn": {
+      "name": "中国",
+      "code": "chn",
+      "transit_fee": 1.0
+    },
+    "vnm": {
+      "name": "越南",
+      "code": "vnm",
+      "transit_fee": 1.0
+    },
+    "sgp": {
+      "name": "新加坡",
+      "code": "sgp",
+      "transit_fee": 1.0
+    },
+    "jpn": {
+      "name": "日本",
+      "code": "jpn",
+      "transit_fee": 1.0
+    }
+  },
+  "commodities": {
+    "chip": {
+      "name": "chip"
+    }
+  },
+  "production_prices": {
+    "chn||chip": 100.0,
+    "usa||chip": 150.0
+  },
+  "tariffs": {
+    "chn||usa||chip": 100.0,
+    "chn||vnm||chip": 0.0,
+    "vnm||sgp||chip": 0.0,
+    "sgp||usa||chip": 0.0
+  }
+}
