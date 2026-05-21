@@ -1,17 +1,13 @@
 #include <bits/stdc++.h>
 
 
-class a{
-    int x;
-};
+int f(int x, int y) {
+    return x ^ y;
+}
 
+int main() {
 
-
-int main(){
+    std::cout << f(5, 7);
     
-    a* p;
-    p->x = 1;
-    std::cout << p->x;
-
     return 0;
 }

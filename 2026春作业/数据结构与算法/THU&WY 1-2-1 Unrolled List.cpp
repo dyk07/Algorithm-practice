@@ -80,6 +80,7 @@ void remove(node*n, int pos){
                     n->pre->next = nullptr;
                 }
             }
+            delete n;
         }
         return;
     }
