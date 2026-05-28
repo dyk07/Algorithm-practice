@@ -1,0 +1,7 @@
+test_name,algorithm,text_len,num_patterns,max_pattern_len,time_ms,counts_match
+AC_advantage_many_patterns,A,200000,500,549,500.739,yes
+AC_advantage_many_patterns,B,200000,500,549,259.242,yes
+AC_advantage_many_patterns,AC,200000,500,549,36.0887,yes
+Close_small_k_small_Lmax,A,30000,10,5,0.1575,yes
+Close_small_k_small_Lmax,B,30000,10,5,0.292,yes
+Close_small_k_small_Lmax,AC,30000,10,5,0.1372,yes

@@ -1,0 +1,5 @@
+test_name,algorithm,text_len,num_patterns,max_pattern_len,time_ms,counts_match
+A_faster_many_short_patterns,A,100000,2000,3,0.8014,yes
+A_faster_many_short_patterns,B,100000,2000,3,121.005,yes
+B_faster_few_long_patterns,A,100000,2,2000,475.108,yes
+B_faster_few_long_patterns,B,100000,2,2000,0.2974,yes

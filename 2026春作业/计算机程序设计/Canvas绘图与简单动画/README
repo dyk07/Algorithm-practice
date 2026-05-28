@@ -1,0 +1,10 @@
+# PA10: Canvas Animation Project
+
+- 创建 `CanvasAnimation` 类，包含以下方法：
+  - `__init__()`：初始化 Canvas 元素和相关属性（蓝天背景）
+  - `draw_static_background()`：绘制静态背景的方法(太阳、房屋)
+  - `draw_moving_objects()`：绘制移动对象的方法（汽车、云朵）
+  - `animate()`：执行动画的方法（包括汽车的反弹，云朵的循环）
+  - `teleport_car(event)`：响应鼠标点击事件，传送汽车的方法。
+
+![alt text](image.png)
